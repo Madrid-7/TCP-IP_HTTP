@@ -28,7 +28,9 @@ public class Client1 {
         name = sc.nextLine();
 
         try {
-            socket = new Socket("127.0.0.1", 5678);
+            socket = new Socket("116.62.173.212", 5678);
+
+            System.out.println(socket);
 
             System.out.println("已连接服务器>");
 

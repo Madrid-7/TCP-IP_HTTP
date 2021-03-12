@@ -35,15 +35,6 @@ public class Server1 {
 
             }
 
-//            //接受请求后使用Socket进行通信，创建BufferedReader用于读取数据
-//            BufferedReader is = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-//            String line = is.readLine();
-//            System.out.println("received from client:" + line);
-//
-//            //创建PrintWriter，用于发送数据
-//            PrintWriter pw = new PrintWriter(socket.getOutputStream());
-//            pw.println("this data is from server");
-//            pw.flush();
         } catch (IOException e) {
             e.printStackTrace();
         }
